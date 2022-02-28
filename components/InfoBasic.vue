@@ -18,23 +18,11 @@
 
 <script>
 export default {
-  data() {
-    return {
-      info: [
-        {
-          name: '名前',
-          val: 'サンプル名前',
-        },
-        {
-          name: '年齢',
-          val: 'サンプル年齢',
-        },
-        {
-          name: '希望職種',
-          val: 'サンプル職種',
-        },
-      ],
-    }
+  data: () => ({
+    info: [],
+  }),
+  async fetch() {
+    this.info = await this.$content('basic').sortBy("createdAt").fetch()
   },
 }
 </script>
