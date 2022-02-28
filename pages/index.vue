@@ -1,7 +1,7 @@
 <template>
   <v-container>
     <v-row justify="center">
-      <v-col cols="12" sm="10" md="7">
+      <v-col cols="12" lg="10" xl="7">
         <InfoBasic></InfoBasic>
         <InfoHistory></InfoHistory>
         <InfoSkills></InfoSkills>
