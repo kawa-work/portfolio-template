@@ -1,5 +1,5 @@
 <template>
-  <v-card id="basic" class="my-12" flat>
+  <v-card id="basic" class="my-12 pb-10" flat>
     <v-card-title> Basic Info </v-card-title>
     <v-card-text>
       <v-simple-table>

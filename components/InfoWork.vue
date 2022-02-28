@@ -1,5 +1,5 @@
 <template>
-  <v-card id="work" class="my-12" flat>
+  <v-card id="work" class="my-12 pb-10" flat>
     <v-card-title>work</v-card-title>
     <v-card-text>
       <v-row class="justify-center">

@@ -1,5 +1,5 @@
 <template>
-  <v-card id="history" class="my-12" flat>
+  <v-card id="history" class="my-12 pb-10" flat>
     <v-card-title>History</v-card-title>
     <v-card-text>
       <v-timeline>
