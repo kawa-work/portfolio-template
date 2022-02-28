@@ -11,7 +11,7 @@
 
     <v-list dense nav>
       <v-list-item
-        v-for="item in items"
+        v-for="item in $sections"
         :key="item.title"
         :to="'#' + item.slag"
       >
@@ -26,24 +26,3 @@
     </v-list>
   </v-navigation-drawer>
 </template>
-
-<script>
-export default {
-  data() {
-    return {
-      items: [
-        { title: 'Basic Info', icon: 'mdi-account-box', slag: 'basic' },
-        { title: 'History', icon: 'mdi-school', slag: 'history' },
-        { title: 'Skills', icon: 'mdi-hammer-wrench', slag: 'skills' },
-        {
-          title: 'Experience',
-          icon: 'mdi-account-arrow-right',
-          slag: 'experience',
-        },
-        { title: 'Research', icon: 'mdi-feature-search', slag: 'research' },
-        { title: 'Work', icon: 'mdi-cube-outline', slag: 'work'},
-      ],
-    }
-  },
-}
-</script>
