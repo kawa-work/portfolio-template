@@ -1,7 +1,7 @@
 # ポートフォリオテンプレート
 
 手軽にポートフォリオを作成するためのテンプレートです。
-`git clone`をしてから、ご自身のリポジトリにコピーしてご使用ください。
+Githubの[Template Resository機能](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template)の利用しているので、　`Use this template`ボタンをクリックして始めてください。
 
 ## 技術構成
 このテンプレートサイトは[Nuxt.js](https://nuxtjs.org/)で作られています。
