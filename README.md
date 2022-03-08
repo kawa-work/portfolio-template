@@ -1,5 +1,11 @@
 # ポートフォリオテンプレート
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/da262c35-7aca-4d47-870e-1ec8e0a8a741/deploy-status)](https://app.netlify.com/sites/mystifying-knuth-7bec75/deploys)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+<a href="https://github.com/badges/shields/generate">
+  <img src="https://img.shields.io/badge/use%20this-template-blue?logo=github">
+</a>
+
 手軽にポートフォリオを作成するためのテンプレートです。
 Githubの[Template Resository機能](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template)の利用しているので、　`Use this template`ボタンをクリックして始めてください。
 
