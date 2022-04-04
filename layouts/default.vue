@@ -13,3 +13,9 @@ export default {
   name: 'DefaultLayout',
 }
 </script>
+
+<style>
+html{
+  scroll-behavior: smooth;
+}
+</style>
