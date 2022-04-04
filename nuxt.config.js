@@ -73,7 +73,13 @@ export default {
           error: colors.deepOrange.accent4,
           success: colors.green.accent3,
         },
+        light: {
+          primary: colors.indigo.lighten3,
+          accent: colors.grey.darken3,
+          secondary: colors.indigo.lighten5,
+        }
       },
+      options: { customProperties: true, variations: false },
     },
   },
 

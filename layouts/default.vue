@@ -1,7 +1,7 @@
 <template>
   <v-app>
     <TheSidebar></TheSidebar>
-    <v-main class="indigo lighten-5">
+    <v-main class="secondary">
       <nuxt />
     </v-main>
     <TheFooter></TheFooter>
