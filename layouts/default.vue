@@ -1,7 +1,7 @@
 <template>
   <v-app>
     <TheSidebar></TheSidebar>
-    <v-main class="indigo lighten-5">
+    <v-main class="secondary">
       <nuxt />
     </v-main>
     <TheFooter></TheFooter>
@@ -13,3 +13,9 @@ export default {
   name: 'DefaultLayout',
 }
 </script>
+
+<style>
+html{
+  scroll-behavior: smooth;
+}
+</style>

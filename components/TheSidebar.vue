@@ -1,5 +1,5 @@
 <template>
-  <v-navigation-drawer app color="#C5CAE9">
+  <v-navigation-drawer app color="primary" floating>
     <v-list-item>
       <v-list-item-content>
         <v-list-item-title class="text-h6">My Portfolio</v-list-item-title>
@@ -9,11 +9,13 @@
 
     <v-divider></v-divider>
 
-    <v-list dense nav>
+    <v-list dense nav flat class="pr-0">
       <v-list-item
         v-for="item in $sections"
         :key="item.title"
+        :ripple="{ class: 'primary--text' }"
         :to="'#' + item.slag"
+        active-class="active-link rounded-pill rounded-r-0"
       >
         <v-list-item-icon>
           <v-icon>{{ item.icon }}</v-icon>
@@ -26,3 +28,10 @@
     </v-list>
   </v-navigation-drawer>
 </template>
+
+<style scoped>
+.active-link {
+  background-color: var(--v-secondary-base);
+  padding-left: 12px;
+}
+</style>
